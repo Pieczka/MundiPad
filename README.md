@@ -19,3 +19,13 @@ com as colunas de controle de rastreabilidade ocultas.
 Deve haver um usuário administrador com permissão para alterar a tabela,
 e os usuários normais só podem ver e alterar a visão.
 
+Interface Gráfica
+-----------------
+
+Interface limpa e simples.  Com 
+
+ * Login e senha;
+ * Página de cadastro;
+ * Navegação.
+
+
