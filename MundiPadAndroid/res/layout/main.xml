@@ -4,9 +4,66 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
+    <FrameLayout
+        android:id="@+id/frameLayout1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_height="18dp" >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <FrameLayout
+                android:id="@+id/frameLayout4"
+                android:layout_width="30dp"
+                android:layout_height="fill_parent" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.42" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currentyear"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.31" >
+
+                <TextSwitcher
+                    android:id="@+id/tsAnoAtual"
+                    android:layout_width="175dp"
+                    android:layout_height="fill_parent" >
+                </TextSwitcher>
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="439dp" >
+
+    </FrameLayout>
 
 </LinearLayout>

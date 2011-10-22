@@ -2,6 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, MundiPadAndroidActivity!</string>
-    <string name="app_name">MundiPadAndroid</string>
+    <string name="app_name">MundiPad</string>
+    <string name="currentyear">Ano atual:</string>
 
 </resources>
