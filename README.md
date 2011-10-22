@@ -28,4 +28,9 @@ Interface limpa e simples.  Com
  * Página de cadastro;
  * Navegação.
 
+Código-Fonte Java
+-----------------
+
+Defina o diretório da cópia local como o *workspace* do eclipse.  Assim
+as pastas dos projetos Java ficarão corretas no eclipse.
 
