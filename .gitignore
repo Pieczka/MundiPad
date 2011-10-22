@@ -1,2 +1,5 @@
 *.sw{o,p}
+.metadata
+bin/
+*.class
 
